@@ -8,17 +8,19 @@ import HelloWorld from "@/components/HelloWorld.vue";
     <img
       alt="Vue logo"
       class="logo"
-      src="@/assets/logo.svg"
+      src="https://mathovore.fr/wp-content/uploads/2014/07/calculatrice.jpg"
       width="125"
       height="125"
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <center>
+        <h1>Super Calculator</h1>
+      </center>
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">Calculator </RouterLink>
+        <RouterLink to="/result">Calculator result</RouterLink>
       </nav>
     </div>
   </header>
