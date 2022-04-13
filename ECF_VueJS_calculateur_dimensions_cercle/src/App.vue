@@ -13,10 +13,10 @@ import HelloWorld from "@/components/HelloWorld.vue";
       height="125"
     />
 
-    <div class="wrapper">
-      <center>
+    <div class="wrapper d-flex flex-column align-items-center" >
+     
         <h1>Super Calculator</h1>
-      </center>
+     
 
       <nav>
         <RouterLink to="/">Calculator </RouterLink>

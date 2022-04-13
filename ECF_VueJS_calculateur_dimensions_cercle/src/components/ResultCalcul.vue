@@ -9,10 +9,10 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="radius in getCalculations" :key="radius">
-        <th>{{ radius.radius }} cm</th>
-        <th>{{ radius.radius }} cm2</th>
-        <th>{{ radius.radius }} cm3</th>
+      <tr>
+        <th>{{ store.GetPerimeter }} cm</th>
+        <th>{{ store.GetArea }} cm2</th>
+        <th>{{ store.GetVolume }} cm3</th>
       </tr>
     </tbody>
   </table>
@@ -21,6 +21,8 @@
 <script setup>
 import { Calculation } from "../stores/calculation";
 import { mapState, mapWritableState } from "pinia";
+
+const store = Calculation();
 </script>
 
 
